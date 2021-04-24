@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#20B2AA"
+    android:padding="@dimen/high"
+    tools:context=".activity.data_barang.DataBarangActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDataBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_data_barang" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btAddDataBarang"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/high"
+        android:layout_marginTop="@dimen/high"
+        android:layout_marginEnd="@dimen/high"
+        android:layout_marginBottom="@dimen/high"
+        android:clickable="true"
+        android:src="@drawable/ic_add_white"
+        app:backgroundTint="#CB82F8E9" />
+</RelativeLayout>

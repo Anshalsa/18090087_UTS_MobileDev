@@ -1,0 +1,2 @@
+com/anshalsa/doll/BuildConfig.java
+ com.anshalsa.doll.BuildConfig

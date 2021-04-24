@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="id.rdev.catatanpenjualan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\Doll\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\Doll\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Doll\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\Doll\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->D:\Doll\app\src\main\AndroidManifest.xml:8:5-30:19
+14        android:allowBackup="false"
+14-->D:\Doll\app\src\main\AndroidManifest.xml:9:9-36
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\Anshalsa\.gradle\caches\transforms-2\files-2.1\3f0e982339ff24e9e5cec28c56d30078\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\Doll\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->D:\Doll\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\Doll\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->D:\Doll\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme"
+22-->D:\Doll\app\src\main\AndroidManifest.xml:14:9-40
+23        android:usesCleartextTraffic="true" >
+23-->D:\Doll\app\src\main\AndroidManifest.xml:15:9-44
+24        <activity android:name="com.anshalsa.doll.activity.report.ReportActivity" />
+24-->D:\Doll\app\src\main\AndroidManifest.xml:17:9-77
+24-->D:\Doll\app\src\main\AndroidManifest.xml:17:19-65
+25        <activity android:name="com.anshalsa.doll.activity.penjualan.PenjualanBarang" />
+25-->D:\Doll\app\src\main\AndroidManifest.xml:18:9-72
+25-->D:\Doll\app\src\main\AndroidManifest.xml:18:19-69
+26        <activity android:name="com.anshalsa.doll.activity.data_barang.DataBarangActivity" />
+26-->D:\Doll\app\src\main\AndroidManifest.xml:19:9-77
+26-->D:\Doll\app\src\main\AndroidManifest.xml:19:19-74
+27        <activity android:name="com.anshalsa.doll.activity.register.RegisterActivity" />
+27-->D:\Doll\app\src\main\AndroidManifest.xml:20:9-72
+27-->D:\Doll\app\src\main\AndroidManifest.xml:20:19-69
+28        <activity android:name="com.anshalsa.doll.activity.data_barang._add.AddBarangActivity" />
+28-->D:\Doll\app\src\main\AndroidManifest.xml:21:9-81
+28-->D:\Doll\app\src\main\AndroidManifest.xml:21:19-78
+29        <activity android:name="com.anshalsa.doll.activity.login.LoginActivity" >
+29-->D:\Doll\app\src\main\AndroidManifest.xml:22:9-28:20
+29-->D:\Doll\app\src\main\AndroidManifest.xml:22:19-63
+30            <intent-filter>
+30-->D:\Doll\app\src\main\AndroidManifest.xml:23:13-27:29
+31                <action android:name="android.intent.action.VIEW" />
+31-->D:\Doll\app\src\main\AndroidManifest.xml:24:17-69
+31-->D:\Doll\app\src\main\AndroidManifest.xml:24:25-66
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\Doll\app\src\main\AndroidManifest.xml:25:17-69
+32-->D:\Doll\app\src\main\AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\Doll\app\src\main\AndroidManifest.xml:26:17-77
+34-->D:\Doll\app\src\main\AndroidManifest.xml:26:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.anshalsa.doll.activity._main.MainActivity" />
+37-->D:\Doll\app\src\main\AndroidManifest.xml:29:9-65
+37-->D:\Doll\app\src\main\AndroidManifest.xml:29:19-62
+38
+39        <provider
+39-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Anshalsa\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Anshalsa\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+41            android:authorities="id.rdev.catatanpenjualan.lifecycle-process"
+41-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Anshalsa\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+42            android:exported="false"
+42-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Anshalsa\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+43            android:multiprocess="true" />
+43-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Anshalsa\.gradle\caches\transforms-2\files-2.1\98b8cd148374505a1fcb7af8fe37b57c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+44    </application>
+45
+46</manifest>
